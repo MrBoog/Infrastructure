@@ -74,10 +74,7 @@
 		04148A6A22A4FCFF00753CA2 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
-				04148A7422A4FD4600753CA2 /* UIDevice+Extension.h */,
-				04148A7322A4FD4600753CA2 /* UIDevice+Extension.m */,
-				04148A6B22A4FCFF00753CA2 /* Infrastructure.h */,
-				04148A6C22A4FCFF00753CA2 /* Info.plist */,
+				04F964BB22A61C580052F3E7 /* Main */,
 				04F9649F22A6142E0052F3E7 /* OPAuth */,
 				04F964A122A6142E0052F3E7 /* OPCoreService */,
 				04F9649D22A6142E0052F3E7 /* OPFrameworks */,
@@ -140,6 +137,17 @@
 				04F964B822A615300052F3E7 /* OPUtilities.m */,
 			);
 			path = OPUtilities;
+			sourceTree = "<group>";
+		};
+		04F964BB22A61C580052F3E7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04148A7422A4FD4600753CA2 /* UIDevice+Extension.h */,
+				04148A7322A4FD4600753CA2 /* UIDevice+Extension.m */,
+				04148A6B22A4FCFF00753CA2 /* Infrastructure.h */,
+				04148A6C22A4FCFF00753CA2 /* Info.plist */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -19,6 +19,11 @@ Pod::Spec.new do |op_core|
 
   op_core.source_files     = "Infrastructure", "Infrastructure/**/*.{h,m}"
   
+  #OPUI
+  op_core.subspec 'OPUI' do |op_UI|
+          op_UI.source_files = 'Infrastructure/OPUI/**/*.{h,m}'
+  end
 
-
+  
+ 
 end
