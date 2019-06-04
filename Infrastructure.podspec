@@ -1,7 +1,7 @@
 Pod::Spec.new do |op_core|
 
-  op_core.name			       = "OPayCore"
-  op_core.version   		   = "0.1.0"
+  op_core.name			       = "Infrastructure"
+  op_core.version   		   = "0.0.2"
   op_core.summary   		   = "Infrastructure For OPay and ORide"
   op_core.description		   = <<-DESC
                 			      Infrastructure For OPay and ORide.
