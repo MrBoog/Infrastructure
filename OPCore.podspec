@@ -1,7 +1,7 @@
 Pod::Spec.new do |op_core|
 
   op_core.name			       = "OPCore"
-  op_core.version   		   = "0.1.0"
+  op_core.version   		   = "0.1.1"
   op_core.summary   		   = "Infrastructure For OPay and ORide etc."
   op_core.description		   = <<-DESC
                 			      Infrastructure For OPay and ORide.
@@ -48,11 +48,11 @@ Pod::Spec.new do |op_core|
   end
 
   # 4.OPFrameworks
-  op_core.subspec 'Frameworks' do |op_frameworks|
-          op_frameworks.source_files = 'OPCoreFoundation/Frameworks/**/*.{h,m}'
+  op_core.subspec 'OPFrameworks' do |op_frameworks|
+          op_frameworks.source_files = 'OPCoreFoundation/OPFrameworks/**/*.{h,m}'
 
-          op_frameworks.public_header_files = 'OPCoreFoundation/Frameworks/Public/*.h'
-          op_frameworks.private_header_files = 'OPCoreFoundation/Frameworks/Private/*.h'
+          op_frameworks.public_header_files = 'OPCoreFoundation/OPFrameworks/Public/*.h'
+          op_frameworks.private_header_files = 'OPCoreFoundation/OPFrameworks/Private/*.h'
 
           op_frameworks.dependency 'Blindside', '1.3.1'
           op_frameworks.dependency 'BlindsidedStoryboard', '0.3.0'
