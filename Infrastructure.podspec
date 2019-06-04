@@ -1,7 +1,7 @@
 Pod::Spec.new do |op_core|
 
   op_core.name			       = "Infrastructure"
-  op_core.version   		   = "0.0.2"
+  op_core.version   		   = "0.0.5"
   op_core.summary   		   = "Infrastructure For OPay and ORide"
   op_core.description		   = <<-DESC
                 			      Infrastructure For OPay and ORide.
@@ -17,13 +17,13 @@ Pod::Spec.new do |op_core|
           :submodules => true 
   }
 
-  op_core.source_files     = "Infrastructure", "Infrastructure/**/*.{h,m}"
+  op_core.source_files     = "Infrastructure", "Infrastructure/Main/**/*.{h,m}"
   
   #OPUI
   op_core.subspec 'OPUI' do |op_UI|
           op_UI.source_files = 'Infrastructure/OPUI/**/*.{h,m}'
   end
 
-  
+
  
 end
