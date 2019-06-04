@@ -1,7 +1,7 @@
 Pod::Spec.new do |op_core|
 
   op_core.name			       = "OPCore"
-  op_core.version   		   = "0.0.9"
+  op_core.version   		   = "0.1.0"
   op_core.summary   		   = "Infrastructure For OPay and ORide etc."
   op_core.description		   = <<-DESC
                 			      Infrastructure For OPay and ORide.
@@ -26,21 +26,33 @@ Pod::Spec.new do |op_core|
   # 1.OPUI
   op_core.subspec 'UI' do |op_UI|
           op_UI.source_files = 'OPCoreFoundation/UI/**/*.{h,m}'
+
+          op_UI.public_header_files = 'OPCoreFoundation/UI/Public/*.h'
+          op_UI.private_header_files = 'OPCoreFoundation/UI/Private/*.h'          
   end
   
   # 2.OPAuth
   op_core.subspec 'Auth' do |op_auth|
           op_auth.source_files = 'OPCoreFoundation/Auth/**/*.{h,m}'
+
+          op_auth.public_header_files = 'OPCoreFoundation/Auth/Public/*.h'
+          op_auth.private_header_files = 'OPCoreFoundation/Auth/Private/*.h'
   end
 
   # 3.OPCoreService
   op_core.subspec 'CoreService' do |op_coreService|
           op_coreService.source_files = 'OPCoreFoundation/CoreService/**/*.{h,m}'
+
+          op_coreService.public_header_files = 'OPCoreFoundation/CoreService/Public/*.h'
+          op_coreService.private_header_files = 'OPCoreFoundation/CoreService/Private/*.h'
   end
 
   # 4.OPFrameworks
   op_core.subspec 'Frameworks' do |op_frameworks|
           op_frameworks.source_files = 'OPCoreFoundation/Frameworks/**/*.{h,m}'
+
+          op_frameworks.public_header_files = 'OPCoreFoundation/Frameworks/Public/*.h'
+          op_frameworks.private_header_files = 'OPCoreFoundation/Frameworks/Private/*.h'
 
           op_frameworks.dependency 'Blindside', '1.3.1'
           op_frameworks.dependency 'BlindsidedStoryboard', '0.3.0'
@@ -49,11 +61,18 @@ Pod::Spec.new do |op_core|
   # 5.OPNetwork
   op_core.subspec 'Network' do |op_network|
           op_network.source_files = 'OPCoreFoundation/Network/**/*.{h,m}'
+
+          op_network.public_header_files = 'OPCoreFoundation/Network/Public/*.h'
+          op_network.private_header_files = 'OPCoreFoundation/Network/Private/*.h'
   end 
 
   # 6.OPUtilities
   op_core.subspec 'Utilities' do |op_utilities|
           op_utilities.source_files = 'OPCoreFoundation/Utilities/**/*.{h,m}'
+
+          op_utilities.public_header_files = 'OPCoreFoundation/Utilities/Public/*.h'
+          op_utilities.private_header_files = 'OPCoreFoundation/Utilities/Private/*.h'          
+          
   end 
 
 end

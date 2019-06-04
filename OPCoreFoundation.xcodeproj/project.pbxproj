@@ -51,6 +51,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0476339422A6676B008347A2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0476339522A667B9008347A2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0476339622A667DB008347A2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0476339722A667DB008347A2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0476339822A667E4008347A2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0476339922A667E4008347A2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0476339A22A667EB008347A2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0476339B22A667EB008347A2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0476339C22A667F3008347A2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0476339D22A667F3008347A2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0476339E22A667FA008347A2 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0476339F22A667FA008347A2 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
 		04F9655022A646BC0052F3E7 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +177,8 @@
 		04F9656622A647F00052F3E7 /* CoreService */ = {
 			isa = PBXGroup;
 			children = (
+				0476339622A667DB008347A2 /* Private */,
+				0476339722A667DB008347A2 /* Public */,
 				04F9656822A647F00052F3E7 /* OPCoreService.h */,
 				04F9656722A647F00052F3E7 /* OPCoreService.m */,
 			);
@@ -102,6 +188,8 @@
 		04F9656922A647F00052F3E7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0476339D22A667F3008347A2 /* Private */,
+				0476339C22A667F3008347A2 /* Public */,
 				04F9656B22A647F00052F3E7 /* OPUI.h */,
 				04F9656A22A647F00052F3E7 /* OPUI.m */,
 			);
@@ -111,6 +199,8 @@
 		04F9656C22A647F00052F3E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0476339922A667E4008347A2 /* Private */,
+				0476339822A667E4008347A2 /* Public */,
 				04F9656E22A647F00052F3E7 /* OPFrameworks.h */,
 				04F9656D22A647F00052F3E7 /* OPFrameworks.m */,
 			);
@@ -120,6 +210,8 @@
 		04F9656F22A647F00052F3E7 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				0476339522A667B9008347A2 /* Private */,
+				0476339422A6676B008347A2 /* Public */,
 				04F9657022A647F00052F3E7 /* OPAuth.h */,
 				04F9657122A647F00052F3E7 /* OPAuth.m */,
 			);
@@ -129,6 +221,8 @@
 		04F9657222A647F00052F3E7 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				0476339B22A667EB008347A2 /* Private */,
+				0476339A22A667EB008347A2 /* Public */,
 				04F9657422A647F00052F3E7 /* OPNetwork.h */,
 				04F9657322A647F00052F3E7 /* OPNetwork.m */,
 			);
@@ -138,6 +232,8 @@
 		04F9657522A647F00052F3E7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0476339F22A667FA008347A2 /* Private */,
+				0476339E22A667FA008347A2 /* Public */,
 				04F9657722A647F00052F3E7 /* OPUtilities.h */,
 				04F9657622A647F00052F3E7 /* OPUtilities.m */,
 			);

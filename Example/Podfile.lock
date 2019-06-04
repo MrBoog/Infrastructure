@@ -1,0 +1,46 @@
+PODS:
+  - Blindside (1.3.1)
+  - BlindsidedStoryboard (0.3.0):
+    - Blindside (~> 1.1)
+  - OPCore (0.0.9):
+    - OPCore/Auth (= 0.0.9)
+    - OPCore/CoreService (= 0.0.9)
+    - OPCore/Frameworks (= 0.0.9)
+    - OPCore/Network (= 0.0.9)
+    - OPCore/UI (= 0.0.9)
+    - OPCore/Utilities (= 0.0.9)
+  - OPCore/Auth (0.0.9)
+  - OPCore/CoreService (0.0.9)
+  - OPCore/Frameworks (0.0.9):
+    - Blindside (= 1.3.1)
+    - BlindsidedStoryboard (= 0.3.0)
+  - OPCore/Network (0.0.9)
+  - OPCore/UI (0.0.9)
+  - OPCore/Utilities (0.0.9)
+
+DEPENDENCIES:
+  - OPCore (from `https://github.com/MrBoog/Infrastructure.git`, tag `0.0.9`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Blindside
+    - BlindsidedStoryboard
+
+EXTERNAL SOURCES:
+  OPCore:
+    :git: https://github.com/MrBoog/Infrastructure.git
+    :tag: 0.0.9
+
+CHECKOUT OPTIONS:
+  OPCore:
+    :git: https://github.com/MrBoog/Infrastructure.git
+    :tag: 0.0.9
+
+SPEC CHECKSUMS:
+  Blindside: 5e32e80fa301ddff70c3f5735cb44467cf3195ff
+  BlindsidedStoryboard: 65676f607e6a19da47994883a58c487c45f6fbfc
+  OPCore: 068df0dfa301c020f5099c2f556f86a1042cb910
+
+PODFILE CHECKSUM: 00540d2fbf0630bf8cc39ae241ed3941542d9dfd
+
+COCOAPODS: 1.7.1
