@@ -93,8 +93,8 @@
 		04F9656622A647F00052F3E7 /* CoreService */ = {
 			isa = PBXGroup;
 			children = (
-				04F9656722A647F00052F3E7 /* OPCoreService.m */,
 				04F9656822A647F00052F3E7 /* OPCoreService.h */,
+				04F9656722A647F00052F3E7 /* OPCoreService.m */,
 			);
 			path = CoreService;
 			sourceTree = "<group>";
@@ -102,8 +102,8 @@
 		04F9656922A647F00052F3E7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				04F9656A22A647F00052F3E7 /* OPUI.m */,
 				04F9656B22A647F00052F3E7 /* OPUI.h */,
+				04F9656A22A647F00052F3E7 /* OPUI.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -111,8 +111,8 @@
 		04F9656C22A647F00052F3E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04F9656D22A647F00052F3E7 /* OPFrameworks.m */,
 				04F9656E22A647F00052F3E7 /* OPFrameworks.h */,
+				04F9656D22A647F00052F3E7 /* OPFrameworks.m */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 		04F9657222A647F00052F3E7 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				04F9657322A647F00052F3E7 /* OPNetwork.m */,
 				04F9657422A647F00052F3E7 /* OPNetwork.h */,
+				04F9657322A647F00052F3E7 /* OPNetwork.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 		04F9657522A647F00052F3E7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				04F9657622A647F00052F3E7 /* OPUtilities.m */,
 				04F9657722A647F00052F3E7 /* OPUtilities.h */,
+				04F9657622A647F00052F3E7 /* OPUtilities.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";

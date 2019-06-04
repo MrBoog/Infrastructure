@@ -41,6 +41,7 @@ Pod::Spec.new do |op_core|
   # 4.OPFrameworks
   op_core.subspec 'Frameworks' do |op_frameworks|
           op_frameworks.source_files = 'OPCoreFoundation/Frameworks/**/*.{h,m}'
+
           op_frameworks.dependency 'Blindside', '1.3.1'
           op_frameworks.dependency 'BlindsidedStoryboard', '0.3.0'
   end 
