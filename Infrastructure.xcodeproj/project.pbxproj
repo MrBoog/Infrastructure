@@ -54,8 +54,56 @@
 				04148A7322A4FD4600753CA2 /* UIDevice+Extension.m */,
 				04148A6B22A4FCFF00753CA2 /* Infrastructure.h */,
 				04148A6C22A4FCFF00753CA2 /* Info.plist */,
+				04F9649F22A6142E0052F3E7 /* OPAuth */,
+				04F964A122A6142E0052F3E7 /* OPCoreService */,
+				04F9649D22A6142E0052F3E7 /* OPFrameworks */,
+				04F964A022A6142E0052F3E7 /* OPNetwork */,
+				04F9649E22A6142E0052F3E7 /* OPUI */,
+				04F964A222A6142E0052F3E7 /* OPUtilities */,
 			);
 			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		04F9649D22A6142E0052F3E7 /* OPFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OPFrameworks;
+			sourceTree = "<group>";
+		};
+		04F9649E22A6142E0052F3E7 /* OPUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OPUI;
+			sourceTree = "<group>";
+		};
+		04F9649F22A6142E0052F3E7 /* OPAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OPAuth;
+			sourceTree = "<group>";
+		};
+		04F964A022A6142E0052F3E7 /* OPNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OPNetwork;
+			sourceTree = "<group>";
+		};
+		04F964A122A6142E0052F3E7 /* OPCoreService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OPCoreService;
+			sourceTree = "<group>";
+		};
+		04F964A222A6142E0052F3E7 /* OPUtilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OPUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
